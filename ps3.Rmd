@@ -29,9 +29,9 @@ library(stargazer)
 library(ggplot2)
 
 # Read in the cleaned data 
-surveydata <- read_csv("C:/Users/sa/Documents/MI2010/survey_data.csv")
+surveydata <- read_csv("C:/Users/sa/Documents/problemset3/survey_data.csv")
 
-censusdata <- read_csv("C:/Users/sa/Documents/MI2010/census_data.csv")
+censusdata <- read_csv("C:/Users/sa/Documents/problemset3/census_data.csv")
 
 newsurvey <- surveydata %>% 
   select( 
