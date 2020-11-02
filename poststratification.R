@@ -5,7 +5,7 @@ library(janitor)
 
 # Read in the raw data.
 
-setwd("C:/Users/sa/Documents/MI2010")
+setwd("C:/Users/sa/Documents/problemset3")
 # Read in the raw data 
 data <- read.table("usa_00001.dat")
 # Add the labels
