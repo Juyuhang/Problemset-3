@@ -3,7 +3,7 @@ library(tidyverse)
 library(ipumsr)
 library(janitor)
 
-setwd("C:/Users/sa/Documents/MI2010")
+setwd("C:/Users/sa/Documents/problemset3")
 # Read in the raw data 
 raw_data <- read_dta("ns20200625/ns20200625.dta")
 # Add the labels
